@@ -1,0 +1,9 @@
+canvas {
+    background:#A8E3F7;
+    border:1px dotted black;
+    cursor:crosshair;
+}
+
+#duck {
+    display:none;
+}
