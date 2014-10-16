@@ -42,7 +42,7 @@ $(document).ready(function(){
         })
         .drawText({
             x:480, y:570,
-            text:"Fly, little duckies!",
+            text:"Fly, Little Duckies!",
             fillStyle:"#000",
             layer:true,
             intangible:true
