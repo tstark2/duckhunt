@@ -1,0 +1,11 @@
+version: "3"
+services:
+  duckhunt:
+    image: golang:alpine
+    tty: true
+    stdin_open: true
+    ports:
+      - "32401:8080"
+    container_name: duckhunt
+    volumes:
+      - "/Users/todd/Documents/Projects/duckHunt:/go/src"
