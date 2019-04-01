@@ -5,6 +5,8 @@ services:
     tty: true
     stdin_open: true
     container_name: duckhunt
+    volumes:
+      - /var/www/duckHunt/static:/go/static
 networks: 
   default:
     external:
